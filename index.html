@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yorgun Gençlik Merkezi - Geleceğin yazılımcıları ve dijital sanatçıları burada yetişiyor.">
+    <title>Yorgun Gençlik Merkezi | Geleceği Kodla</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">YORGUN<span>GENÇLİK</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+                <li><a href="egitimler.html">Eğitimler</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="iletisim.html">Başvuru</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Slider Section -->
+        <section id="hero-slider">
+            <div class="slider-container">
+                <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero1.png');">
+                    <div class="container slide-content">
+                        <h1 class="reveal">Teknolojiyle <span class="highlight">Yüksel</span></h1>
+                        <p class="reveal">Yorgun Gençlik Merkezi'nde yeni nesil yazılım eğitimleri ve projelerle geleceğe hazırlan.</p>
+                        <a href="iletisim.html" class="btn btn-primary reveal">Şimdi Başvur</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero2.png');">
+                    <div class="container slide-content">
+                        <h1>Sınırları <span class="highlight">Zorla</span></h1>
+                        <p>Robotik kodlamadan yapay zekaya, dijital dünyanın kapılarını aralıyoruz.</p>
+                        <a href="#about" class="btn btn-primary">Keşfet</a>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/hero3.png');">
+                    <div class="container slide-content">
+                        <h1>Birlikte <span class="highlight">Üret</span></h1>
+                        <p>Genç yeteneklerle bir araya gel, hayallerindeki projeyi gerçeğe dönüştür.</p>
+                        <a href="#gallery" class="btn btn-primary">Projelerimiz</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button id="prev-btn">&lt;</button>
+                <button id="next-btn">&gt;</button>
+            </div>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+
+        <!-- Biz Kimiz / Proje Hakkında -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-flex">
+                    <div class="about-text reveal">
+                        <h2 class="section-subtitle">Vizyonumuz</h2>
+                        <h2 class="section-title">Yorgun Gençlik Dünyanın Mimarı</h2>
+                        <p>Yorgun Gençlik Merkezi olarak, gençlerimizin teknolojik dönüşümün sadece bir parçası değil, yönlendiricisi olmalarını hedefliyoruz. Yazılım, tasarım ve inovasyon odaklı eğitimlerimizle geleceğin liderlerini yetiştiriyoruz.</p>
+                        <p>Burada teori pratiğe dönüşür, fikirler ürüne evrilir. Modern laboratuvarlarımızda en güncel teknolojilerle tanışma fırsatı sunuyoruz.</p>
+                        <a href="#contact" class="btn btn-secondary">Aramıza Katıl</a>
+                    </div>
+                    <div class="about-visual reveal">
+                        <div class="glass-box">
+                            <div class="glass-content">
+                                <h3>Modern Eğitim</h3>
+                                <p>Sektör standartlarında araçlar ve metodolojiler.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İstatistik Alanı -->
+        <section id="stats" class="section bg-alt">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="1500">0</div>
+                        <div class="stat-label">Aktif Katılımcı</div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="45">0</div>
+                        <div class="stat-label">Tamamlanan Proje</div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="12">0</div>
+                        <div class="stat-label">Uzman Eğitmen</div>
+                    </div>
+                    <div class="stat-item reveal">
+                        <div class="stat-number" data-target="250">0</div>
+                        <div class="stat-label">Sertifika Programı</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Görsel Galeri -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title text-center reveal">Proje Galerisi</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal">
+                        <img src="assets/hero2.png" alt="Proje 1">
+                        <div class="overlay"><span>Robotik Kodlama</span></div>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="assets/hero3.png" alt="Proje 2">
+                        <div class="overlay"><span>Yazılım Kampı</span></div>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="assets/hero1.png" alt="Proje 3">
+                        <div class="overlay"><span>Hackathon 2026</span></div>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="assets/hero2.png" alt="Proje 4">
+                        <div class="overlay"><span>Mobil Uygulama</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="section cta-bg">
+            <div class="container text-center reveal">
+                <h2>Sen de Değişimin Bir Parçası Ol!</h2>
+                <p>Yeni dönem kayıtları devam ediyor. Kontenjanlar dolmadan yerini ayırt.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Hemen Başvur</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>YORGUN<span>GENÇLİK</span></h3>
+                    <p>Teknoloji ve gençliğin buluşma noktası. Geleceği birlikte inşa ediyoruz.</p>
+                </div>
+                <div class="footer-nav">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                        <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+                        <li><a href="egitimler.html">Eğitimler</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-links">
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yorgun Gençlik Merkezi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

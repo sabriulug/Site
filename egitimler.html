@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eğitimler | Yorgun Gençlik Merkezi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header" class="active">
+        <nav class="container">
+            <div class="logo">
+                <a href="index.html">YORGUN<span>GENÇLİK</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="hakkimizda.html">Biz Kimiz</a></li>
+                <li><a href="egitimler.html" class="active">Eğitimler</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="iletisim.html">Başvuru</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <section class="section">
+            <div class="container">
+                <h2 class="section-subtitle">Geleceğin Yetkinlikleri</h2>
+                <h1 class="section-title">Eğitim Programlarımız</h1>
+                <div class="grid-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <!-- Web Geliştirme -->
+                    <div class="card reveal active">
+                        <div class="card-icon" style="font-size: 3rem; color: var(--primary);">💻</div>
+                        <h3>Frontend Geliştirme</h3>
+                        <p>HTML, CSS ve JavaScript ile modern web arayüzleri oluşturun.</p>
+                        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">Süre: 12 Hafta | Seviye: Başlangıç</div>
+                    </div>
+                    <!-- Mobil -->
+                    <div class="card reveal active">
+                        <div class="card-icon" style="font-size: 3rem; color: var(--primary);">📱</div>
+                        <h3>Mobil Uygulama</h3>
+                        <p>React Native ve Flutter ile cross-platform uygulamalar geliştirin.</p>
+                        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">Süre: 16 Hafta | Seviye: Orta</div>
+                    </div>
+                    <!-- Tasarım -->
+                    <div class="card reveal active">
+                        <div class="card-icon" style="font-size: 3rem; color: var(--primary);">🎨</div>
+                        <h3>UI/UX Tasarım</h3>
+                        <p>Figma ve Adobe XD ile kullanıcı odaklı tasarımlar yapın.</p>
+                        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">Süre: 8 Hafta | Seviye: Başlangıç</div>
+                    </div>
+                    <!-- Veri -->
+                    <div class="card reveal active">
+                        <div class="card-icon" style="font-size: 3rem; color: var(--primary);">📊</div>
+                        <h3>Veri Bilimi</h3>
+                        <p>Python ile veri analizi ve görselleştirme tekniklerini öğrenin.</p>
+                        <div style="margin-top: 1rem; color: var(--text-muted); font-size: 0.9rem;">Süre: 20 Hafta | Seviye: İleri</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Yorgun Gençlik Merkezi. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
